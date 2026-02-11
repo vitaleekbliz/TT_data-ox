@@ -1,0 +1,94 @@
+RESULT.PNG
+RESULT.txt
+# Python
+
+### Python ###
+# Byte-code files
+*.pyc
+__pycache__/
+[0-9][0-9][0-9][0-9]*.pyc.
+[0-9][0-9][0-9][0-9]*.pyc
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+
+# PyInstaller
+# See https://github.com
+# for expanding this list to include log files, etc.
+*.layout
+*.manifest
+*.pdb
+*.aux
+*.out
+*.log
+*.pif
+*.rgs
+*.rc
+*.ico
+*.bin
+
+# Unit test / coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and other tools
+
+# VS Code
+.vscode/
+# Comment out the next line if you want to commit settings.json to your repo
+#.vscode/settings.json
+# Comment out the next line if you want to commit launch.json to your repo
+#.vscode/launch.json
+# Comment out the next line if you want to commit tasks.json to your repo
+#.vscode/tasks.json
+# Comment out the next line if you want to commit extensions.json to your repo
+#.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm/IntelliJ
+.idea/
+
+# virtualenv
+# .venv automatically added by extensions
+# venv/
+
+# Data files
+*.h5
+
+# OS Files
+.DS_Store
+.cache/
+.project
+.settings/
+.tmproj
+*.esproj
