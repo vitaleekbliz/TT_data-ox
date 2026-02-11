@@ -104,7 +104,14 @@ Scraping Complete.
 
 ![Database](screenshots/RESULT.PNG)
 
-4.1 Use varibales from .env
+4.1 open http://localhost:8080/
+
+4.2 login
+
+user = admin@admin.com
+pass = admin
+
+4.3 Use varibales from .env
 
 Host name/address: Use db 
 Port: 5432
@@ -112,5 +119,5 @@ Maintenance database: app_db
 Username: my_user
 Password: my_secure_password
 
-4.2 Servers > Scraper DB > Databases > app_db > Schemas > public > Tables.
+4.4 Servers > Scraper DB > Databases > app_db > Schemas > public > Tables.
     Right-click on your cars table and select View/Edit Data > All Rows.
